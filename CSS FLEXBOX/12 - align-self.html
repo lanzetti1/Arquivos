@@ -14,11 +14,16 @@
            display: flex;
         }
 
+        .align-container{
+            align-items: center;
+        }
+
         .item{
-            background-color: brow;
+            background-color: brown;
             color: white;
             font-size: 24px;
             text-align: center;
+            margin: 5px;
         }
 
         .center{
@@ -47,11 +52,23 @@
     </style>
 </head>
 <body>
+
+    <h1>Row</h1>
+
+    <p>Align-Items</p>
+   <section class="flex-container align-container">
+       <div class="item auto">AAA</div>
+       <div class="item auto">123</div>
+       <div class="item auto">Lorem ipsum dolor sit amet</div>
+       <div class="item auto">Texto sem nexo.</div>
+   </section>
+   
+   <p>Posições Variadas</p>
    <section class="flex-container">
-       <div class="item">AAA</div>
-       <div class="item">123</div>
-       <div class="item">Lorem ipsum dolor sit amet</div>
-       <div class="item">Texto sem nexo.</div>
+       <div class="item end">AAA</div>
+       <div class="item start">123</div>
+       <div class="item auto">Lorem ipsum dolor sit amet</div>
+       <div class="item stretch">Texto sem nexo.</div>
    </section> 
 </body>
 </html>
