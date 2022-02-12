@@ -49,6 +49,10 @@
         .auto{
             align-self: auto;
         }
+
+            .dir{
+                flex-direction: column;
+            }
     </style>
 </head>
 <body>
@@ -56,19 +60,53 @@
     <h1>Row</h1>
 
     <p>Align-Items</p>
-   <section class="flex-container align-container">
+    <section class="flex-container align-container">
        <div class="item auto">AAA</div>
        <div class="item auto">123</div>
        <div class="item auto">Lorem ipsum dolor sit amet</div>
        <div class="item auto">Texto sem nexo.</div>
-   </section>
+    </section>
    
-   <p>Posições Variadas</p>
-   <section class="flex-container">
+    <p>Posições Variadas de Alinhamento</p>
+    <section class="flex-container">
        <div class="item end">AAA</div>
        <div class="item start">123</div>
        <div class="item auto">Lorem ipsum dolor sit amet</div>
        <div class="item stretch">Texto sem nexo.</div>
-   </section> 
+   </section>
+   
+    <p>Novo teste de posicionamento</p>
+    <section class="flex-container">
+        <div class="item start">AAA</div>
+        <div class="item end">123</div>
+        <div class="item center">aaaaaaa</div>
+        <div class="item stretch">Texto sem nexo e sem anexo. Creio  que não tenho muito mais o que dizer.</div>
+    </section>
+
+    <h1>Column</h1>
+
+    <p>Align-Items</p>
+    <section class="flex-container align-container dir">
+       <div class="item auto">AAA</div>
+       <div class="item auto">123</div>
+       <div class="item auto">Lorem ipsum dolor sit amet</div>
+       <div class="item auto">Texto sem nexo.</div>
+    </section>
+   
+    <p>Posições Variadas de Alinhamento</p>
+    <section class="flex-container dir">
+       <div class="item end">AAA</div>
+       <div class="item start">123</div>
+       <div class="item auto">Lorem ipsum dolor sit amet</div>
+       <div class="item stretch">Texto sem nexo.</div>
+   </section>
+   
+    <p>Novo teste de posicionamento</p>
+    <section class="flex-container dir">
+        <div class="item start">AAA</div>
+        <div class="item end">123</div>
+        <div class="item center">aaaaaaa</div>
+        <div class="item stretch">Texto sem nexo e sem anexo. Creio  que não tenho muito mais o que dizer.</div>
+    </section>
 </body>
 </html>
