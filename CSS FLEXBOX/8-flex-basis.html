@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex-basis</title>
+
+    <style>
+        .flex-container{
+            max-width: 700px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: coral;
+            color: white;
+            margin: 5px;
+            text-align: center;
+        }
+        
+        .bauto{
+            flex-basis: auto;
+        }
+
+        .bz{
+            flex-basis: 0;
+        }
+
+        .fg-0{
+            flex-grow: 0;
+        }
+
+        .fg-1{
+            flex-grow: 1;
+        }
+        
+        .fg-2{
+            flex-grow: 2;
+        }
+
+        .fg-3{
+            flex-grow: 3;
+        }
+
+        .w100{
+            flex-basis: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Flex-Basis: Auto</p>
+    <div class="flex-container">
+        <div class="item bauto fg-2">M</div>
+        <div class="item bauto fg-1">QR</div>
+        <div class="item bauto fg-3">ES</div>
+        <div class="item bauto fg-2">TM</div>
+        <div class="item bauto fg-1">UM</div>
+        <div class="item bauto fg-3">LDO</div>
+    </div>
+
+    <p>Flex-Basis: Zero</p>
+    <div class="flex-container">
+        <div class="item bz fg-1">M</div>
+        <div class="item bz fg-1">QR</div>
+        <div class="item bz fg-1">ES</div>
+        <div class="item bz fg-1">TM</div>
+        <div class="item bz fg-1">UM</div>
+        <div class="item bz fg-1">LDO</div>
+    </div>
+    
+    <p>Basis + Width</p>
+    <div class="flex-container">
+        <div class="item w100 fg-0">M</div>
+        <div class="item w100 fg-3">QR</div>
+        <div class="item w100 fg-1">ES</div>
+        <div class="item w100 fg-2">TM</div>
+        <div class="item w100 fg-0">UM</div>
+        <div class="item w100 fg-3">LDO</div>
+    </div>
+</body>
+</html>
