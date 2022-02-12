@@ -22,6 +22,7 @@
         font-size: 24px;	
 		text-align: center;
 		color: orangered;
+		margin-bottom: 10px;
 	}
 
     .fg-0{
@@ -40,21 +41,62 @@
 		flex-grow:3;
 	}
 
+	.s-0{
+		flex-shrink: 0;
+		flex-basis: 100px;
+	}
+
     .s-1{
         flex-shrink: 1;
     }
+
+	.s-2{
+		flex-shrink: 2;
+	}
+
+	.s-3{
+		flex-shrink: 3;
+		flex-basis: 100px;
+	}
 
 
     </style>
 </head>
 <body>
-  <p>Flex-Shrink</p>
+  <p>Flex-Shrink:1</p>
   <div class="flex-container">
-      <div class="item">A</div>
-      <div class="item">B</div>
-      <div class="item">C</div>    
-      <div class="item">D</div>
-      <div class="item">E</div>
+      <div class="item s-1 fg-1">A</div>
+      <div class="item s-1 fg-1">B</div>
+      <div class="item s-1 fg-1">C</div>    
+      <div class="item s-1 fg-1">D</div>
+      <div class="item s-1 fg-1">E</div>
+  </div>
+
+  <p>Flex-Shrink:2</p>
+  <div class="flex-container">
+      <div class="item s-2 fg-1">A</div>
+      <div class="item s-2 fg-1">Como saber o que dizer para você</div>
+      <div class="item s-2 fg-1">C</div>    
+      <div class="item s-2 fg-1">D</div>
+      <div class="item s-2 fg-1">E</div>
+  </div>
+
+  <p>Flex-Shrink:0 / Basis:100 px</p>
+  <div class="flex-container">
+      <div class="item s-0 fg-1">A</div>
+      <div class="item s-0 fg-1">Como saber o que dizer para você</div>
+      <div class="item s-0 fg-1">C</div>    
+      <div class="item s-0 fg-1">D</div>
+      <div class="item s-0 fg-1">E</div>
+  </div>
+
+  <p>Flex-Shrink:Mix / Basis:100 px</p>
+  <div class="flex-container">
+      <div class="item s-3 fg-1">A</div>
+      <div class="item s-3 fg-0">Como saber o que dizer para você</div>
+      <div class="item s-0 fg-1">C</div>    
+      <div class="item s-3 fg-2">D</div>
+      <div class="item s-0 fg-3">E</div>
   </div>
 </body>
 </html>
