@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - flex-shrink</title>
+
+    <style>
+        
+	.flex-container{
+		display: flex;
+		border: 1px solid black;
+		max-width: 350px;
+		margin-bottom: 20px;
+		justify-content: center;
+	}
+
+	.item{
+		background-color: rgb(72, 36, 105);
+		margin: 5px;
+        font-size: 24px;	
+		text-align: center;
+		color: orangered;
+	}
+
+    .fg-0{
+		flex-grow:0;
+	}
+
+	.fg-1{
+		flex-grow:1;
+	}
+
+	.fg-2{
+		flex-grow:2;
+	}
+
+	.fg-3{
+		flex-grow:3;
+	}
+
+    .s-1{
+        flex-shrink: 1;
+    }
+
+
+    </style>
+</head>
+<body>
+  <p>Flex-Shrink</p>
+  <div class="flex-container">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>    
+      <div class="item">D</div>
+      <div class="item">E</div>
+  </div>
+</body>
+</html>
