@@ -28,3 +28,16 @@ header{
     align-items: center;
     color: orangered;
 }
+
+header .menu{
+    justify-content: space-between;
+}
+
+header .list-items{
+    display: flex;
+    align-items: center;
+}
+
+.list-items li a{
+    color: aquamarine;
+}
