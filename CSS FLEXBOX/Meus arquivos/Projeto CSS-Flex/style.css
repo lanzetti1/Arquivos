@@ -125,11 +125,17 @@ header .list-items{
 .container-externo{
     background-color: #122a57;
     width: 100%;
+    color: orangered;
 }
 
 #servicos{
     flex-direction: column;
     padding: 40px;
+}
+
+#servicos h2{
+    color: aquamarine;
+    font-size: 40px;
 }
 
 .li-serv{
@@ -140,4 +146,19 @@ header .list-items{
 
 .li-serv .itserv{
     text-align: center;
+    color: red;
 }
+
+    .itserv a{
+        color: #fff;
+        background-color: #099734;
+        border-radius: 30px;
+        width: 220px;
+        display: block;
+        text-decoration: none;
+        height: 50px;
+        text-align: center;
+        line-height: 45px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
