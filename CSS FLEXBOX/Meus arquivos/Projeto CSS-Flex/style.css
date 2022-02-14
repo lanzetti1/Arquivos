@@ -74,10 +74,10 @@ header .list-items{
 }
 
 .texto-apresentacao a{
-    color: #fff;
+    color: orange;
     background-color: #099734;
     border-radius: 30px;
-    width: 220px;
+    width: 160px;
     display: block;
     text-decoration: none;
     height: 50px;
@@ -141,23 +141,34 @@ header .list-items{
     display: flex;
     justify-content: space-between;
     padding: 40px;
+    width: auto;
 }
 
 .li-serv .itserv{
-    text-align: center;
-    color: red;
+    text-align: center;  
 }
 
-    .itserv a{
-        color: #fff;
-        background-color: #099734;
-        border-radius: 30px;
-        width: 220px;
-        display: block;
-        text-decoration: none;
-        height: 50px;
-        text-align: center;
-        line-height: 45px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+ .itserv a{
+    color: orange;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #099734;
+    border-radius: 25px;
+    width:auto;
+    display: block;
+    text-decoration: none;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.itserv p{
+    color: orangered;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
