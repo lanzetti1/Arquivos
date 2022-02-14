@@ -35,9 +35,55 @@ header .menu{
 
 header .list-items{
     display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
 
 .list-items li a{
     color: aquamarine;
 }
+
+.apresentacao{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.apresentacao .texto-apresentacao{
+    min-height: 200px;
+}
+
+.texto-apresentacao h1{
+    color: #122a57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.texto-apresentacao p{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.texto-apresentacao a{
+    color: #fff;
+    background-color: #099734;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.images-0{
+    display: flex;
+    width: 100%;
+}
+
