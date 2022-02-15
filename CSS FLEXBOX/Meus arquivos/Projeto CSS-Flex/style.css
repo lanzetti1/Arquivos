@@ -73,7 +73,7 @@ header .list-items{
     margin-bottom: 20px;
 }
 
-.texto-apresentacao a{
+.btn{
     color: orange;
     background-color: #099734;
     border-radius: 30px;
@@ -182,6 +182,7 @@ header .list-items{
     font-size: 36px;
 }
 
+
 .list-plan{
     display: flex;
     align-items: flex-end;
@@ -196,17 +197,22 @@ header .list-items{
     margin-right: 25px;
 }
 
+.item-planos .btn{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 #planos h3{
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-#planos h3::before{
+#planos li::after{
     content: "";
-    height: 50px;
-    margin-bottom: 20px;
-    width: 5px;
+    height: 5px;
+    margin-top: 20px;
+    width: 50px;
     position: relative;
     background-color: #122a57;
 }
