@@ -175,11 +175,39 @@ header .list-items{
 #planos{
     flex-direction: column;
     height: 100vh;
+    padding: 40px;
+}
+
+#planos h2{
+    font-size: 36px;
 }
 
 .list-plan{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
+    width: auto;
+}
+
+.item-planos{
+    flex: 1;
+    border: 5px solid #122a57;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+#planos h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#planos h3::before{
+    content: "";
+    height: 50px;
+    margin-bottom: 20px;
+    width: 5px;
+    position: relative;
+    background-color: #122a57;
 }
 
