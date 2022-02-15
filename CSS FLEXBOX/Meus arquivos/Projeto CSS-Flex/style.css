@@ -192,7 +192,8 @@ header .list-items{
 
 .item-planos{
     flex: 1;
-    border: 5px solid #122a57;
+    padding: 10px;
+    border: 5px solid orangered;
     border-radius: 15px;
     margin-right: 25px;
 }
@@ -202,18 +203,17 @@ header .list-items{
     margin-top: 15px;
     margin-bottom: 20px;
 }
-#planos h3{
+.item-planos h3{
     font-size: 24px;
-    margin-bottom: 20px;
+    display: flex;
     text-align: center;
+    flex-direction: column;
 }
 
-#planos li::after{
+.item-planos::after{
     content: "";
     height: 5px;
-    margin-top: 20px;
-    width: 50px;
-    position: relative;
+    width: 100%;
     background-color: #122a57;
 }
 
