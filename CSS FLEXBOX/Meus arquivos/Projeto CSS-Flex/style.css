@@ -172,3 +172,14 @@ header .list-items{
     margin-bottom: 25px;
 }
 
+#planos{
+    flex-direction: column;
+    height: 100vh;
+}
+
+.list-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
