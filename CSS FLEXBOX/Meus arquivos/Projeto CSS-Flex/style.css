@@ -239,3 +239,15 @@ header .list-items{
     height: 10px;
     background-color: black;
 }
+
+footer{
+    background-color: #122a57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: #fff;
+}
