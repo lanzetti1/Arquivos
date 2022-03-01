@@ -210,10 +210,12 @@ header .list-items{
     flex-direction: column;
 }
 
-.item-planos::after{
+.item-planos h3::after{
     content: "";
     height: 5px;
     width: 100%;
     background-color: #122a57;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
