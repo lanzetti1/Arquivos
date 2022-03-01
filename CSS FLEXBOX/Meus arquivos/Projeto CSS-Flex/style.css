@@ -175,7 +175,7 @@ header .list-items{
 #planos{
     flex-direction: column;
     height: 100vh;
-    padding: 40px;
+    padding-top: 50px;
 }
 
 #planos h2{
@@ -196,6 +196,7 @@ header .list-items{
     border: 5px solid orangered;
     border-radius: 15px;
     margin-right: 25px;
+    max-width: 240px;
 }
 
 .item-planos .btn{
@@ -223,6 +224,7 @@ header .list-items{
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .item-planos ul li{
