@@ -24,6 +24,8 @@ div img{
     max-width: 992px;
     margin: auto;
     width: 100%;
+    min-width: 320px;
+    padding: 10px 15px;
 }
 
 header{
@@ -251,3 +253,28 @@ footer .footer{
     justify-content: space-between;
     color: #fff;
 }
+
+/*mobile*/
+
+/* Ajustes necessários para páginas responsivas */
+/* de tecnologia mobile*/
+
+@media(max-width: 992px){
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao .texto-apresentacao{
+        width: 100%;
+    }
+
+    #quem-somos{
+        flex-direction: column-reverse;
+    }
+}
+
+/*parte3 10:42*/
