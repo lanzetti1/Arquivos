@@ -172,7 +172,7 @@ header .list-items{
 
 #planos{
     flex-direction: column;
-    height: 125vh;
+    height: 130vh;
     padding-top: 50px;
 }
 
@@ -286,11 +286,13 @@ footer .footer{
     .list-plan{
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 20px;
     }
     .list-plan .item-planos{
         max-width: 90%;
         width: 100%;
         margin: auto;
+        margin-bottom: 20px;
     }
 }
 
