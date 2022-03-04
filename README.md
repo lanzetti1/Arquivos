@@ -4,4 +4,4 @@ Aprendizado de utilização das ferramentas da GOOGLE CLOUD PLATFORM através do
 
 Os dados foram importados de  https://github.com/marcelomarques05/dio-desafio-dataproc.git
 
-Adicionalmente serão adicionadas pastas com novas propostas de exercícios
+Adicionalmente serão incluidas pastas com novas propostas de exercícios
