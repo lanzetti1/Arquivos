@@ -1,4 +1,7 @@
-/* Criação dos primeiros atributos da página*/
+/* Criação dos primeiros atributos da página
+O código com essa configuração cria uma faixa vermelha em cima 
+e o letreiro fica em preto
+
 :root{
     --vermelho: #E50914;
     --preto: #141414;
@@ -9,4 +12,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+header .container{}
 
+header .logo{
+    background: var(--vermelho);
+    font-family: 'Arial Black', 'Times New Roman', Times, serif;
+}
+*/
