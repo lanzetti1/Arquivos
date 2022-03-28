@@ -1,6 +1,6 @@
 /* Criação dos primeiros atributos da página
 O código com essa configuração cria uma faixa vermelha em cima 
-e o letreiro fica em preto
+e o letreiro fica em preto */
 
 :root{
     --vermelho: #E50914;
@@ -17,11 +17,17 @@ body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
 }
-header .container{}
+header .container{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
 
 header .logo{
-    background: var(--vermelho);
+    color: var(--vermelho);
     font-family: 'Arial Black', 'Times New Roman', Times, serif;
+    font-size: 42px;
 }
 Parei aos 13:26 seg da aula 3
 */
